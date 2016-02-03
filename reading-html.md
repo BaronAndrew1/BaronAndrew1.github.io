@@ -31,7 +31,7 @@ A generic page division that should only be used if no other, more semantic choi
 
 <!--Self Created Content-->
 
-## '<DOCTYPE!>'
+## '<!DOCTYPE>'
 
 A version declaration for html format documents.  Mainly used for SGML/HTML4.01.  This tag informs the browser which version you are using allowing it to render correctly.
 
