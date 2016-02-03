@@ -53,7 +53,7 @@ _display_: `block`
 
 Encompasses elements of the program not necessarily visible to use user.  These include the title and image on the task bar.  Metadata tends to be placed here.
 
-_parents_: `html`
+_parents_: [`<html>`](#html)
 
 _content_:  One or more elements of metadata where exactly one is a [`<title>`](#title)
 
@@ -63,9 +63,9 @@ _display_: `block`
 
 The bulk of all written code goes here.  This holds all the information on the web page seen by users.
 
-_parents_: `html`
+_parents_: [`<html>`](#html)
 
-_content_:  [`Flow Content`][1]
+_content_:  [Flow Content][1]
 
 _display_: `block`
 
@@ -73,7 +73,7 @@ _display_: `block`
 
 Defines the title and can only hold text.
 
-_parents_: `head`
+_parents_: [`<head>`](#head)
 
 _content_: `text`
 
@@ -83,9 +83,9 @@ _display_: `block` (Really, I am not sure about this??)
 
 A reusable self contained composition. (a complete document meant to be reusable or relocated at any time.)
 
-_parents_:  any flow content other than [`address`](#address).
+_parents_:  any flow content other than [`<address>`](#address).
 
-_content_:  any [flow content][1] [sectioning content][1] or [palpable content][1].
+_content_:  any [Flow Content][1] [Sectioning Content][1] or [Palpable Content][1].
 
 _display_:  `block`
 
@@ -93,9 +93,9 @@ _display_:  `block`
 
 Provides location information for the article or body in which its embedded.
 
-_parents_:  any element that accepts [flow content][1]
+_parents_:  any element that accepts [Flow Content][1]
 
-_content_:  [flow content][1] not including [`article`](#article) [heading content][1] [sectioning content][1] `heading` or `footing`
+_content_:  [Flow Content][1] not including [`<article>`](#article) [Heading Content][1] [Sectioning Content][1] `heading` or `footing`
 
 _display_:  `block`
 
@@ -103,7 +103,7 @@ _display_:  `block`
 
 "paragraph".  This contains most standard text used in the document.
 
-_parents_:  any element that accepts [flow content][1]
+_parents_:  any element that accepts [Flow Content][1]
 
 _content_:  phrasing content (text and text markups)
 
@@ -113,9 +113,9 @@ _display_:  `block`
 
 A generic page division.
 
-_parents_:  anything that accepts [flow content][1]
+_parents_:  anything that accepts [Flow Content][1]
 
-_content_:  [flow content][1]
+_content_:  [Flow Content][1]
 
 _display_:  `block`
 
@@ -123,9 +123,9 @@ _display_:  `block`
 
 Generic inline container.
 
-_parents_:  any element that accept [flow content][1] and [phrasing content][1]
+_parents_:  any element that accept [Flow Content][1] and [Phrasing Content][1]
 
-_content_:  [phrasing content][1]
+_content_:  [Phrasing Content][1]
 
 _display_:  `inline`
 
